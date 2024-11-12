@@ -1,0 +1,8 @@
+:root{
+    background: #000;
+}
+body{
+    height: 100vh;
+    padding: 10px;
+    overflow: hidden;
+}
