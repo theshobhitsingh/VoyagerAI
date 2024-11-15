@@ -1,11 +1,9 @@
 .rootLayout {
-  /* padding: 16px 64px; */
   height: 100vh;
   display: flex;
   flex-direction: column;
 
   header {
-    /* padding-top: 1rem; */
     margin-bottom: 1rem;
     display: flex;
     align-items: center;
@@ -54,7 +52,7 @@
   color: #ffffff;
   display: flex;
   align-items: center;
-  gap: 1rem; 
+  gap: 1rem;
   transition: color 0.3s ease;
 }
 

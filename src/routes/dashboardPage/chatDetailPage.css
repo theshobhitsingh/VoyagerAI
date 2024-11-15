@@ -1,55 +1,54 @@
 .chatDetailPage {
-    font-family: Arial, sans-serif;
-    background-color: #454645;
-    padding: 20px;
-  }
-  
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .header h1 {
-    font-size: 2rem;
-    color: #ffffff;
-  }
-  
-  .backButton {
-    background-color: #2f00ff;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
-  }
-  
-  .backButton:hover {
-    background-color: #cb08e0;
-  }
-  
-  .chatContent {
-    background-color: rgb(33, 33, 33);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .chatMessage {
-    margin-bottom: 20px;
-  }
-  
-  .question {
-    font-size: 1.2rem;
-    color: #ffffff;
-    margin-bottom: 10px;
-  }
-  
-  .answer {
-    font-size: 1rem;
-    color: #ffffff;
-  }
-  
+  font-family: Arial, sans-serif;
+  background-color: #454645;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.backButton {
+  background-color: #2f00ff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.backButton:hover {
+  background-color: #cb08e0;
+}
+
+.chatContent {
+  background-color: rgb(33, 33, 33);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.chatMessage {
+  margin-bottom: 20px;
+}
+
+.question {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.answer {
+  font-size: 1rem;
+  color: #ffffff;
+}

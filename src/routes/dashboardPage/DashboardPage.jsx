@@ -1,8 +1,7 @@
-
 import { useState, useEffect, useRef } from "react";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { GoogleGenerativeAI } from "@google/generative-ai";
-import { useNavigate } from "react-router-dom"; // Updated import
+import { useNavigate } from "react-router-dom";
 import "./dashboardPage.css";
 
 const googleAI = new GoogleGenerativeAI("AIzaSyCXL98QXpc0ltzWQekEN108UyUAd0eZr1g");
@@ -87,7 +86,7 @@ const DashboardPage = () => {
   };
 
   const goToChat = (id) => {
-    navigate(`/dashboard/chats/${id}`); // Updated to use navigate from react-router-dom
+    navigate(`/dashboard/chats/${id}`);
   };
 
   return (
@@ -114,7 +113,7 @@ const DashboardPage = () => {
               </div>
             ))
           ) : (
-            <h1 className="noChatsMessage">No chats available at the moment.</h1>
+            <h1 className="noChatsMessage">No chats available at the moment!</h1>
           )}
         </div>
 

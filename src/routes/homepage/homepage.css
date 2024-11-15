@@ -133,39 +133,7 @@
     z-index: -1;
   }
 
-  .terms {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    font-size: large;
-
-    img {
-      width: 16px;
-      height: 16px;
-    }
-
-    .links {
-      display: flex;
-      gap: 20px;
-      color: #888; /* Grey color */
-      font-size: 20px; /* Increased font size */
-      font-weight: 500; /* Optional: Add weight to the text for emphasis */
-    }
-
-    .links a {
-      color: #888; /* Ensure the links also have grey color */
-      transition: color 0.3s;
-
-      &:hover {
-        color: #e61717; /* Change color on hover to red */
-      }
-    }
-  }
+  
   .get-started-btn {
     text-decoration: none;
     padding: 18px 30px;
@@ -190,6 +158,39 @@
 
     &:active {
       transform: scale(0.98);
+    }
+  }
+  .terms {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: large;
+
+    img {
+      width: 16px;
+      height: 16px;
+    }
+
+    .links {
+      display: flex;
+      gap: 20px;
+      color: #888;
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .links a {
+      color: #888;
+      transition: color 0.3s;
+
+      &:hover {
+        color: #e61717
+      }
     }
   }
 }
