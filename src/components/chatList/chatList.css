@@ -18,7 +18,6 @@
   font-weight: 700;
   color: #ffffff00;
   margin-bottom: -10rem;
-
 }
 
 .title {
@@ -71,7 +70,6 @@
 .list::-webkit-scrollbar-track {
   background: #333;
 }
-
 
 .list a {
   display: flex;
@@ -177,7 +175,9 @@ hr {
 }
 
 .ll:hover {
-  text-decoration: underline;
+  background-color: #80d4ff;
+  color: #333;
+  text-decoration: none;
 }
 
 /* Title styling */

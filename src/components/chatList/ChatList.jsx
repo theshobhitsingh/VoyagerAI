@@ -16,23 +16,20 @@ const ChatList = () => {
   };
 
   useEffect(() => {
-    // Fetch chat history immediately on component mount
     fetchChatHistory();
 
-    // Set up polling to revalidate the chat list every 10 seconds
     const intervalId = setInterval(fetchChatHistory, 2000);
 
-    // Clean up the interval when the component unmounts
     return () => clearInterval(intervalId);
   }, []);
   return (
     <div className="chatList">
       <span className="dash">Dashboard</span>
-      <Link className="ll" to="/dashboard">Create a new Chat</Link>
+      <Link className="ll" to="/dashboard">Create a New Chat</Link>
       <Link className="ll" to="/">Explore VoyagerAI</Link>
       <Link className="ll" to="/">Contact Us</Link>
       <hr />
-      <span className="title">RECENT CHATS</span>
+      <span className="title">Recent Chats</span>
       {/* <div className="list">
         {chatHistory.length === 0 ? (
           <p className="noChatsMessage">No recent chats available.</p>

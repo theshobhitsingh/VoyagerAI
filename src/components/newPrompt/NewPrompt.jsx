@@ -102,7 +102,6 @@ const NewPrompt = ({ data }) => {
     add(text, false);
   };
 
-  // IN PRODUCTION WE DON'T NEED IT
   const hasRun = useRef(false);
 
   useEffect(() => {

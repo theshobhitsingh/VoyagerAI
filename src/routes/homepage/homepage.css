@@ -29,8 +29,9 @@
         font-size: 64px;
       }
     }
-    h3 {
+    h2 {
       font-weight: 400;
+      color: aliceblue;
       max-width: 70%;
 
       @media screen and (max-width: 1024px) {
@@ -141,6 +142,7 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    font-size: large;
 
     img {
       width: 16px;
@@ -149,9 +151,45 @@
 
     .links {
       display: flex;
-      gap: 10px;
-      color: #888;
-      font-size: 10px;
+      gap: 20px;
+      color: #888; /* Grey color */
+      font-size: 20px; /* Increased font size */
+      font-weight: 500; /* Optional: Add weight to the text for emphasis */
+    }
+
+    .links a {
+      color: #888; /* Ensure the links also have grey color */
+      transition: color 0.3s;
+
+      &:hover {
+        color: #e61717; /* Change color on hover to red */
+      }
+    }
+  }
+  .get-started-btn {
+    text-decoration: none;
+    padding: 18px 30px;
+    background-color: #9e21fe;
+    color: white;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+
+    &:hover {
+      background-color: #1a5bc9;
+      color: #fff;
+      box-shadow: 0 6px 20px rgba(33, 123, 254, 0.6);
+      transform: scale(1.1);
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    }
+
+    &:active {
+      transform: scale(0.98);
     }
   }
 }
