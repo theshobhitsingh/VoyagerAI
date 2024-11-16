@@ -2,84 +2,12 @@ import { Link } from "react-router-dom";
 import "./homepage.css";
 import { TypeAnimation } from "react-type-animation";
 import { useState } from "react";
-import {Particles} from "react-tsparticles";  // Import Particles component
-import { loadFull } from "tsparticles";   // Import for better particle configuration
 
 const Homepage = () => {
   const [typingStatus, setTypingStatus] = useState("human1");
 
-  // Particles setup function
-  const particlesInit = async (main) => {
-    await loadFull(main);  // Loading the full particle configuration
-  };
-
-  // Particle options configuration
-  const particlesOptions = {
-    fullScreen: {
-      enable: true,
-      zIndex: -1,
-    },
-    particles: {
-      number: {
-        value: 100,  // Number of particles
-        density: {
-          enable: true,
-          value_area: 800,
-        },
-      },
-      shape: {
-        type: "circle",  // Shape of particles
-      },
-      size: {
-        value: 3,  // Size of the particles
-      },
-      links: {
-        enable: true,
-        distance: 150,
-        color: "#ffffff",
-        opacity: 0.4,
-        width: 1,
-      },
-      move: {
-        enable: true,
-        speed: 1,
-        direction: "none",
-        random: true,
-        straight: false,
-        outModes: {
-          default: "out",
-        },
-      },
-      opacity: {
-        value: 0.5,
-        random: true,
-        animation: {
-          enable: true,
-          speed: 1,
-          minimumValue: 0.1,
-        },
-      },
-    },
-    interactivity: {
-      detectsOn: "canvas",
-      events: {
-        onClick: {
-          enable: true,
-          mode: "push",
-        },
-        onHover: {
-          enable: true,
-          mode: "repulse",
-        },
-      },
-    },
-  };
-
   return (
     <div className="homepage">
-      {/* Particles background */}
-      <Particles init={particlesInit} options={particlesOptions} />
-
       <img src="/orbital.png" alt="orbital" className="orbital" />
       <div className="left">
         <h1>VoyagerAI</h1>
