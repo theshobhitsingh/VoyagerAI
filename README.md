@@ -58,7 +58,7 @@ Fetches a specific chat by its ID for the logged-in user.
 
 ## Authentication: Requires the user to be logged in via Clerk.
 
-Parameters:
+## Parameters:
 
 id: The ID of the chat to fetch.
 
