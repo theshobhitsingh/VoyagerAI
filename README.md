@@ -53,26 +53,10 @@ Fetches all the user's saved chats.
 - **Response**: 
   - A list of the user's saved chats, including the chat's ID and title.
   
-- **Example Request**:
-  ```bash
-  GET /api/userchats
-**Example Response**:
-[
-  {
-    "_id": "60d21b4667d0d8992e610c85",
-    "title": "First Chat",
-    "createdAt": "2022-06-01T12:00:00Z"
-  },
-  {
-    "_id": "60d21b4667d0d8992e610c86",
-    "title": "Second Chat",
-    "createdAt": "2022-06-10T14:30:00Z"
-  }
-]
-GET /api/chats/:id
+#### GET /api/chats/:id
 Fetches a specific chat by its ID for the logged-in user.
 
-Authentication: Requires the user to be logged in via Clerk.
+## Authentication: Requires the user to be logged in via Clerk.
 
 Parameters:
 
