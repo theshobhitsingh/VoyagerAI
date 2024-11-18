@@ -70,3 +70,24 @@ Updates a specific chat with new information (like question, answer, or image).
   "answer": "AI's response",
   "img": "URL of the attached image"
 }
+```
+
+## MongoDB Models
+
+### Chat Model
+The Chat model stores the user's chat history, including the role of the sender (user or model) and the content of the conversation.
+
+```javascript
+const chatSchema = new mongoose.Schema(
+  {
+    userId: { type: String, required: true },
+    history: [
+      {
+        role: { type: String, enum: ["user", "model"], required: true },
+        parts: [{ text: { type: String, required: true } }],
+        img: { type: String, required: false }
+      }
+    ]
+  },
+  { timestamps: true }
+);
