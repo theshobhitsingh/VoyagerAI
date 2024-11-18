@@ -69,4 +69,12 @@ Fetches all the user's saved chats.
     "createdAt": "2022-06-10T14:30:00Z"
   }
 ]
+GET /api/chats/:id
+Fetches a specific chat by its ID for the logged-in user.
+
+Authentication: Requires the user to be logged in via Clerk.
+
+Parameters:
+
+id: The ID of the chat to fetch.
 
