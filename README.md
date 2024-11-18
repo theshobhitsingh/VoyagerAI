@@ -91,3 +91,44 @@ const chatSchema = new mongoose.Schema(
   },
   { timestamps: true }
 );
+```
+### UserChats Model
+The UserChats model stores a list of chats for each user, along with the chat's title and creation timestamp.
+```javascript
+const userChatsSchema = new mongoose.Schema(
+  {
+    userId: { type: String, required: true },
+    chats: [
+      {
+        _id: { type: String, required: true },
+        title: { type: String, required: true },
+        createdAt: { type: Date, default: Date.now }
+      }
+    ]
+  },
+  { timestamps: true }
+);
+```
+## Components
+
+**Homepage:** The landing page of the application, featuring a dynamic chat animation with the bot and human, and a "Get Started" button to navigate to the dashboard.
+**DashboardPage:** The main page where users can interact with the AI. The chat history is displayed, and new chats can be initiated.
+**SignInPage:** A page that allows users to sign in to the application via Clerk.
+**SignUpPage:** A page where users can sign up for an account.
+
+## Libraries Used
+
+**React.js:** The primary library for building the user interface.
+**React Router:** For routing between different pages in the application.
+**TypeAnimation:** Provides smooth typing effects for simulating chat interactions.
+**@tanstack/react-query:** For managing and caching API requests.
+
+## Authentication
+User authentication is powered by ***Clerk.*** Users can sign up and sign in using the Clerk API, which is integrated into the frontend. Clerk handles user sessions securely.
+
+## Authentication Flow:
+1. User signs up or logs in via Clerk.
+2. The user is authenticated and redirected to the dashboard page.
+3. API calls to the backend are authenticated using the Clerk JWT token.
+4. 
+## Installation
