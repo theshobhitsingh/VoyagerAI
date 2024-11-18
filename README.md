@@ -169,3 +169,13 @@ Install dependencies: npm install
 
 In the backend directory, run: nodemon start
 Now, the application should be running on http://localhost:3000 for the backend and http://localhost:5173 for the frontend.
+
+## Environment Variables
+
+IMAGE_KIT_ENDPOINT: Endpoint for ImageKit service.
+IMAGE_KIT_PUBLIC_KEY: Public key for ImageKit.
+IMAGE_KIT_PRIVATE_KEY: Private key for ImageKit.
+CLIENT_URL: URL of the frontend application.
+MONGO: MongoDB connection string for connecting to the database.
+CLERK_PUBLISHABLE_KEY: Clerk publishable API key.
+CLERK_SECRET_KEY: Clerk secret API key.
