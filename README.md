@@ -158,3 +158,14 @@ MONGO=your-mongo-db-connection-string
 CLERK_PUBLISHABLE_KEY=your-clerk-publishable-key
 CLERK_SECRET_KEY=your-clerk-secret-key
 ```
+4. Frontend Setup:
+
+Navigate to the frontend directory.
+Install dependencies: npm install
+
+5. Start the development server: npm run dev
+
+6. Start the Backend:
+
+In the backend directory, run: nodemon start
+Now, the application should be running on http://localhost:3000 for the backend and http://localhost:5173 for the frontend.
