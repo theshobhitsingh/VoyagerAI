@@ -56,4 +56,17 @@ Fetches all the user's saved chats.
 - **Example Request**:
   ```bash
   GET /api/userchats
+**Example Response**:
+[
+  {
+    "_id": "60d21b4667d0d8992e610c85",
+    "title": "First Chat",
+    "createdAt": "2022-06-01T12:00:00Z"
+  },
+  {
+    "_id": "60d21b4667d0d8992e610c86",
+    "title": "Second Chat",
+    "createdAt": "2022-06-10T14:30:00Z"
+  }
+]
 
