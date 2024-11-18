@@ -1,4 +1,4 @@
-# VoyagerAI - Chat Application
+# VoyagerAI
 
 **VoyagerAI** is an AI-powered chat application built with the goal of providing users with intelligent conversations, powered by Google Generative AI. The application is designed to help users interact with an AI, save chat history, and maintain a personalized conversation history.
 
