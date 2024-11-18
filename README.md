@@ -206,13 +206,14 @@ Copy code
 npm run start
 Now, the application should be running on http://localhost:3000 for the backend and http://localhost:5173 for the frontend.
 
-Environment Variables
-IMAGE_KIT_ENDPOINT: Endpoint for ImageKit service.
-IMAGE_KIT_PUBLIC_KEY: Public key for ImageKit.
-IMAGE_KIT_PRIVATE_KEY: Private key for ImageKit.
-CLIENT_URL: URL of the frontend application.
-MONGO: MongoDB connection string for connecting to the database.
-CLERK_PUBLISHABLE_KEY: Clerk publishable API key.
-CLERK_SECRET_KEY: Clerk secret API key.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+### Environment Variables
+***IMAGE_KIT_ENDPOINT:*** Endpoint for ImageKit service. <br>
+***IMAGE_KIT_PUBLIC_KEY:*** Public key for ImageKit. <br>
+***IMAGE_KIT_PRIVATE_KEY:*** Private key for ImageKit. <br>
+***CLIENT_URL:*** URL of the frontend application. <br>
+***MONGO:*** MongoDB connection string for connecting to the database. <br>
+***CLERK_PUBLISHABLE_KEY:*** Clerk publishable API key. <br>
+***CLERK_SECRET_KEY:*** Clerk secret API key. <br>
+
+### Programmer
+This application is developed by my ***Shobhit Singh***
