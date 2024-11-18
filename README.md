@@ -157,39 +157,19 @@ cd voyagerai
 Backend Setup:
 
 Navigate to the backend directory.
-Install dependencies:
-bash
-Copy code
-npm install
-Set up environment variables: Create a .env file and add the following variables:
-env
-Copy code
-IMAGE_KIT_ENDPOINT=your-image-kit-endpoint
-IMAGE_KIT_PUBLIC_KEY=your-public-key
-IMAGE_KIT_PRIVATE_KEY=your-private-key
-CLIENT_URL=http://localhost:5173
-MONGO=your-mongo-db-connection-string
-CLERK_PUBLISHABLE_KEY=your-clerk-publishable-key
-CLERK_SECRET_KEY=your-clerk-secret-key
-Frontend Setup:
+Install dependencies: npm install
+
 
 Navigate to the frontend directory.
-Install dependencies:
-bash
-Copy code
-npm install
-Start the development server:
-bash
-Copy code
-npm start
-Start the Backend:
+Install dependencies: npm install
+Start the development server: npm start
+Start the Backend: nodemon run start
 
-In the backend directory, run:
-bash
-Copy code
-npm run start
+In the backend directory, run: nodemon run start
 Now, the application should be running on http://localhost:3000 for the backend and http://localhost:5173 for the frontend.
 
+Set up environment variables: Create a .env file and add the following variables:
+env
 ## Environment Variables
 ***IMAGE_KIT_ENDPOINT:*** Endpoint for ImageKit service. <br>
 ***IMAGE_KIT_PUBLIC_KEY:*** Public key for ImageKit. <br>
