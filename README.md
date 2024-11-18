@@ -206,7 +206,7 @@ Copy code
 npm run start
 Now, the application should be running on http://localhost:3000 for the backend and http://localhost:5173 for the frontend.
 
-### Environment Variables
+## Environment Variables
 ***IMAGE_KIT_ENDPOINT:*** Endpoint for ImageKit service. <br>
 ***IMAGE_KIT_PUBLIC_KEY:*** Public key for ImageKit. <br>
 ***IMAGE_KIT_PRIVATE_KEY:*** Private key for ImageKit. <br>
@@ -215,5 +215,5 @@ Now, the application should be running on http://localhost:3000 for the backend 
 ***CLERK_PUBLISHABLE_KEY:*** Clerk publishable API key. <br>
 ***CLERK_SECRET_KEY:*** Clerk secret API key. <br>
 
-### Programmer
+## Programmer
 This application is developed by my ***Shobhit Singh***
