@@ -130,5 +130,31 @@ User authentication is powered by ***Clerk.*** Users can sign up and sign in usi
 1. User signs up or logs in via Clerk.
 2. The user is authenticated and redirected to the dashboard page.
 3. API calls to the backend are authenticated using the Clerk JWT token.
-4. 
+
 ## Installation
+
+To run this application locally, follow these steps:
+
+1. Clone the Repository:
+
+```bash
+git clone https://github.com/your-repo/voyagerai.git
+cd voyagerai
+```
+
+2. Backend Setup:
+
+Navigate to the backend directory.
+Install dependencies: npm install
+
+3. Set up environment variables: Create a .env file and add the following variables: 
+
+```env
+IMAGE_KIT_ENDPOINT=your-image-kit-endpoint
+IMAGE_KIT_PUBLIC_KEY=your-public-key
+IMAGE_KIT_PRIVATE_KEY=your-private-key
+CLIENT_URL=http://localhost:5173
+MONGO=your-mongo-db-connection-string
+CLERK_PUBLISHABLE_KEY=your-clerk-publishable-key
+CLERK_SECRET_KEY=your-clerk-secret-key
+```
