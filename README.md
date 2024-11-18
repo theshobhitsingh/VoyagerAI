@@ -46,11 +46,14 @@ VoyagerAI is designed to provide users with seamless and interactive experiences
 
 ### API Endpoints
 
-#### `POST /api/chats`
-Creates a new chat for the logged-in user.
+#### `GET /api/userchats`
+Fetches all the user's saved chats.
+
 - **Authentication**: Requires the user to be logged in via Clerk.
-- **Body**: 
-  ```json
-  {
-    "text": "User's question or message"
-  }
+- **Response**: 
+  - A list of the user's saved chats, including the chat's ID and title.
+  
+- **Example Request**:
+  ```bash
+  GET /api/userchats
+
