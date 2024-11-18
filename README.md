@@ -172,14 +172,14 @@ Now, the application should be running on http://localhost:3000 for the backend 
 
 ## Environment Variables
 
-IMAGE_KIT_ENDPOINT: Endpoint for ImageKit service.
-IMAGE_KIT_PUBLIC_KEY: Public key for ImageKit.
-IMAGE_KIT_PRIVATE_KEY: Private key for ImageKit.
-CLIENT_URL: URL of the frontend application.
-MONGO: MongoDB connection string for connecting to the database.
-CLERK_PUBLISHABLE_KEY: Clerk publishable API key.
-CLERK_SECRET_KEY: Clerk secret API key.
+IMAGE_KIT_ENDPOINT: Endpoint for ImageKit service. <br>
+IMAGE_KIT_PUBLIC_KEY: Public key for ImageKit. <br>
+IMAGE_KIT_PRIVATE_KEY: Private key for ImageKit. <br>
+CLIENT_URL: URL of the frontend application. <br>
+MONGO: MongoDB connection string for connecting to the database. <br>
+CLERK_PUBLISHABLE_KEY: Clerk publishable API key. <br>
+CLERK_SECRET_KEY: Clerk secret API key. <br>
 
 ## Programmer
 
-This app is designed and developed by me ***Shobhit Singh***.
+This application is designed and developed by me ***Shobhit Singh***.
