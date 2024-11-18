@@ -15,7 +15,7 @@
 - [Authentication](#authentication)
 - [Installation](#installation)
 - [Environment Variables](#environment-variables)
-- [Programmer}(#programmer)
+- [Programmer](#programmer)
 
 ## Overview
 
