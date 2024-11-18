@@ -11,7 +11,7 @@ const ChatDetailPage = () => {
     // Fetch the chat details by ID from your backend
     const fetchChatDetails = async () => {
       try {
-        const response = await fetch(`http://localhost:3000/api/chats/${id}`);
+        const response = await fetch(`https://voyagerai-backend.onrender.com/api/chats/${id}`);
         const data = await response.json();
         setChatDetails(data);
       } catch (error) {

@@ -12,7 +12,7 @@ const ChatPage = () => {
   const { isPending, error, data } = useQuery({
     queryKey: ["chat", chatId],
     queryFn: () =>
-      fetch(`http://localhost:3000/api/chats/${chatId}`, {
+      fetch(`https://voyagerai-backend.onrender.com/api/chats/${chatId}`, {
         credentials: "include",
       }).then((res) => res.json()),
   });

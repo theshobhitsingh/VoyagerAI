@@ -39,7 +39,7 @@ const NewPrompt = ({ data }) => {
 
   const mutation = useMutation({
     mutationFn: () => {
-      return fetch(`http://localhost:3000/api/chats/${data._id}`, {
+      return fetch(`https://voyagerai-backend.onrender.com/api/chats/${data._id}`, {
         method: "PUT",
         credentials: "include",
         headers: {

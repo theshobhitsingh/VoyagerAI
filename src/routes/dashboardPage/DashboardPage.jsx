@@ -37,7 +37,7 @@ const DashboardPage = () => {
 
       // Save to backend
       try {
-        await fetch("http://localhost:3000/api/chats", {
+        await fetch("https://voyagerai-backend.onrender.com/api/chats", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

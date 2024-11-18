@@ -7,7 +7,7 @@ const ChatList = () => {
 
   const fetchChatHistory = async () => {
     try {
-      const response = await fetch("http://localhost:3000/api/chats");
+      const response = await fetch("https://voyagerai-backend.onrender.com/api/chats");
       const data = await response.json();
       setChatHistory(data);
     } catch (error) {
