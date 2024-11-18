@@ -111,29 +111,29 @@ const userChatsSchema = new mongoose.Schema(
 ```
 ## Components
 
-**Homepage:** The landing page of the application, featuring a dynamic chat animation with the bot and human, and a "Get Started" button to navigate to the dashboard.
-**DashboardPage:** The main page where users can interact with the AI. The chat history is displayed, and new chats can be initiated.
-**SignInPage:** A page that allows users to sign in to the application via Clerk.
-**SignUpPage:** A page where users can sign up for an account.
+**Homepage:** The landing page of the application, featuring a dynamic chat animation with the bot and human, and a "Get Started" button to navigate to the dashboard. <br>
+**DashboardPage:** The main page where users can interact with the AI. The chat history is displayed, and new chats can be initiated. <br>
+**SignInPage:** A page that allows users to sign in to the application via Clerk. <br>
+**SignUpPage:** A page where users can sign up for an account. <br>
 
 ## Libraries Used
 
-**React.js:** The primary library for building the user interface.
-**React Router:** For routing between different pages in the application.
-**TypeAnimation:** Provides smooth typing effects for simulating chat interactions.
-**@tanstack/react-query:** For managing and caching API requests.
+**React.js:** The primary library for building the user interface. <br>
+**React Router:** For routing between different pages in the application. <br>
+**TypeAnimation:** Provides smooth typing effects for simulating chat interactions. <br>
+**@tanstack/react-query:** For managing and caching API requests. <br>
 
 ## Authentication
 User authentication is powered by ***Clerk.*** Users can sign up and sign in using the Clerk API, which is integrated into the frontend. Clerk handles user sessions securely.
 
 ## Authentication Flow:
-1. User signs up or logs in via Clerk.
-2. The user is authenticated and redirected to the dashboard page.
-3. API calls to the backend are authenticated using the Clerk JWT token.
+1. User signs up or logs in via Clerk. <br>
+2. The user is authenticated and redirected to the dashboard page. <br>
+3. API calls to the backend are authenticated using the Clerk JWT token. <br>
 
 ## Installation
 
-To run this application locally, follow these steps:
+To run this application locally, follow these steps: <br>
 
 1. Clone the Repository:
 
@@ -144,10 +144,10 @@ cd voyagerai
 
 2. Backend Setup:
 
-Navigate to the backend directory.
-Install dependencies: npm install
+---> Navigate to the backend directory. <br>
+----->Install dependencies: npm install <br>
 
-3. Set up environment variables: Create a .env file and add the following variables: 
+3. Set up environment variables: Create a .env file and add the following variables:  <br>
 
 ```env
 IMAGE_KIT_ENDPOINT=your-image-kit-endpoint
