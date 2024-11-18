@@ -179,3 +179,7 @@ CLIENT_URL: URL of the frontend application.
 MONGO: MongoDB connection string for connecting to the database.
 CLERK_PUBLISHABLE_KEY: Clerk publishable API key.
 CLERK_SECRET_KEY: Clerk secret API key.
+
+## Programmer
+
+This app is designed and developed by me ***Shobhit Singh***.
