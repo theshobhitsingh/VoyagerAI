@@ -181,5 +181,4 @@ CLERK_PUBLISHABLE_KEY: Clerk publishable API key. <br>
 CLERK_SECRET_KEY: Clerk secret API key. <br>
 
 ## Programmer
-
 This application is designed and developed by me ***Shobhit Singh***.
